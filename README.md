@@ -1,5 +1,5 @@
 # Assignment 1
-For the first assignment it is required to write a python node that controls the robot to put all the golden boxes together. The code is found in this Git Repository, named as Assignment23, and flowchart is seen below.
+For the first assignment it is required to write a python node that controls the robot to put all the golden boxes together. The code is found in this Git Repository (named as assignment.py) and flowchart is seen below.
 
 ## Flowchart for the code:
 1.Main program <br>
