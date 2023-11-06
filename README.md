@@ -3,7 +3,8 @@ For the first assignment it is required to write a python node that controls the
 
 Flowchart for the code:
 1) Main program
-   ![image](https://github.com/IrisLaanearu/Project/assets/145934148/5902ca80-d726-4bee-aaa6-149654b2be8b)
+   ![Main code](https://github.com/IrisLaanearu/Project/assets/145934148/46febfeb-dc51-43b3-9dd9-7ff3cd4010fc)
+
 
 Functions
 2) Drive and turn
