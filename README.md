@@ -5,17 +5,17 @@ Flowchart for the code:
 1) Main program
    ![Main code](https://github.com/IrisLaanearu/Project/assets/145934148/46febfeb-dc51-43b3-9dd9-7ff3cd4010fc)
 
-
 Functions
 2) Drive and turn
-   ![image](https://github.com/IrisLaanearu/Project/assets/145934148/4584409a-574d-4d11-9ec5-a8bb32ed4f57)
+   ![Drive and Turn](https://github.com/IrisLaanearu/Project/assets/145934148/825e101a-c4d2-47df-bd40-4a5d199912d9)
 
 3) Find token
-   ![image](https://github.com/IrisLaanearu/Project/assets/145934148/cac9053a-5b67-43b2-91ce-b6e5622a384b)
+   ![Find token](https://github.com/IrisLaanearu/Project/assets/145934148/fbb8632e-7bb7-48fe-a177-5d41a1065250)
 
-4) Find token center
-   ![image](https://github.com/IrisLaanearu/Project/assets/145934148/b34019f9-34cb-40bb-9aee-ae7f25eff06e)
+4) Find center token
+   ![Find center token](https://github.com/IrisLaanearu/Project/assets/145934148/a2ed04a9-09f9-476a-b0f8-89d6435bb0e8)
 
 5) Move token
-   ![image](https://github.com/IrisLaanearu/Project/assets/145934148/129d2b8d-7ff1-4b30-b5a8-b2146986a3c6)
+   ![Move token](https://github.com/IrisLaanearu/Project/assets/145934148/5ced616d-d684-4e95-9af7-51f84b9a7ead)
+
 
