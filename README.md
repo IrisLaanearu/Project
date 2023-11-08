@@ -1,11 +1,13 @@
 # Assignment 1
-For the first assignment it is required to write a python node that controls the robot to put all the golden boxes together. The code is found in this Git Repository (named as assignment.py) and flowchart is seen below.
+For the first assignment it is required to write a python node that controls the robot to put all the golden boxes together. The code is found in this Git Repository (named as assignment.py) and flowchart of the code can be seen below. <br>
+In this code the robot finds the first token and brings it to the center. Then it finds another token (that hasn't been moved before), grabs it, locates the center by the first token and moves towards it. When it reaches a certain distance of the center token it release the token it was holding. These steps are repeated until all the tokens are collected in the center.
+
 
 ## Installing and running
 The simulator requires a Python 2.7 installation, the [pygame](http://pygame.org/) library, [PyPyBox2D](https://pypi.python.org/pypi/pypybox2d/2.1-r331), and [PyYAML](https://pypi.python.org/pypi/PyYAML/).
 Use `run.py` to run the script in the simulator:
 ```bash
-$ python2 run.py exercise1.py
+$ python2 run.py assignment.py
 ```
 
 ## Flowchart for the code:
@@ -26,5 +28,5 @@ $ python2 run.py exercise1.py
 ![Move token](https://github.com/IrisLaanearu/Project/assets/145934148/5ced616d-d684-4e95-9af7-51f84b9a7ead)
 
 ## Possible improvements
-The code is built to find the first token and drive it to the center. This is done by manually inserting the trajectory from the first token to the center. It is not the best approach because the code does not work if the robot or the first token is positioned differently than in the current simulation. <br>
-One solution is to not collect all the tokens in the center. After pairing the first tokens, it is possible to locate the next token by the previous one and collect them where the first token was found.
+The code is built to find the first token and drive it to the center. This is done manually by inserting the trajectory from the first token to the center. It is not the best approach because the code does not work if the robot or the first token is positioned differently than in the current simulation. <br>
+One solution is to not collect all the tokens in the center. After the first pairing, it is possible to locate the next token by the previous and collect them where the first pairing took place.
