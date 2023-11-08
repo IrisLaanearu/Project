@@ -74,7 +74,7 @@ def find_token(collected_tokens):
 	dist = 100
 	
 	for token in R.see(): # R.see() returns list of all the markers the robot can see
-		# If token is in distance
+		# If token is smaller than the current distance
 		if token.dist < dist and token.info.code not in collected_tokens:
 			dist = token.dist
 			rot_y = token.rot_y
